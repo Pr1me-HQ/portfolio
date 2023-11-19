@@ -20,7 +20,7 @@ const Menu = () => {
             {MENULINKS.map((el) => (
               <li className="p-0 m-6 text-2xl block" key={el.name}>
                 <a
-                  className="link relative inline font-mono font-bold text-5xl duration-300 hover:no-underline"
+                  className="link relative inline font-sans font-bold text-5xl duration-300 hover:no-underline"
                   href={`#${el.ref}`}
                 >
                   {el.name}

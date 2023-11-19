@@ -12,8 +12,8 @@ const Header = ({ children }) => {
             <Image
               src="/logo.svg"
               alt="Logo - Azizbek Eshmurodov"
-              width={25}
-              height={25}
+              width={50}
+              height={50}
             />
           </a>
           <div className="outer-menu relative">

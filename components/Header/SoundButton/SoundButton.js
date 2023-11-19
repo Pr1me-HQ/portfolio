@@ -7,8 +7,8 @@ const SoundButton = () => {
       <svg width="25" height="25" viewBox="0 0 21 21" fill="#fff">
         <defs>
           <linearGradient id="gradient">
-            <stop offset="0" stopColor="#9f55ff" />
-            <stop offset="1" stopColor="#7000ff" />
+            <stop offset="0" stopColor="#0275d8" />
+            <stop offset="1" stopColor="#5bc0de" />
           </linearGradient>
         </defs>
         <path

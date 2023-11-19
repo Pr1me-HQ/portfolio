@@ -105,10 +105,15 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-      <div
+      {/* <div
         className="absolute invisible w-4/12 bottom-1.5 lg:visible lg:right-12 2xl:right-16"
         ref={lottieRef}
-      ></div>
+      ></div> */}
+      <div
+        className="absolute invisible w-4/12 bottom-1.5 lg:visible lg:right-0 2xl:right-16"
+      >
+        <img src="/work/main.gif"></img>
+      </div>
     </section>
   );
 };

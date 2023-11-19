@@ -79,7 +79,7 @@ const Footer = () => {
       />
       <style jsx global>{`
         footer {
-          background-image: linear-gradient(270deg, #9f55ff, #7000ff, #8b31ff);
+          background-image: linear-gradient(270deg, #0275d8, #5bc0de, #5387d5);
         }
       `}</style>
     </footer>

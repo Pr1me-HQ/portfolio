@@ -5,7 +5,7 @@ const mail = ({ name, email, message }) => {
     process.env.NEXT_PUBLIC_SERVICE_ID,
     process.env.NEXT_PUBLIC_TEMPLATE_ID,
     { name, email, message },
-    process.env.NEXT_PUBLIC_USER_ID
+    process.env.NEXT_PUBLIC_KEY
   );
 };
 

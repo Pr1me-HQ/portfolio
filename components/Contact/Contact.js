@@ -196,18 +196,18 @@ const Contact = () => {
             {
               "--text-opacity": 0,
               "--border-radius": 0,
-              "--left-wing-background": "#9f55ff",
-              "--right-wing-background": "#9f55ff",
+              "--left-wing-background": "#0275d8",
+              "--right-wing-background": "#0275d8",
               duration: 0.11,
             },
             {
-              "--left-wing-background": "#8b31ff",
-              "--right-wing-background": "#8b31ff",
+              "--left-wing-background": "#5387d5",
+              "--right-wing-background": "#5387d5",
               duration: 0.14,
             },
             {
-              "--left-body-background": "#9f55ff",
-              "--right-body-background": "#9f55ff",
+              "--left-body-background": "#0275d8",
+              "--right-body-background": "#0275d8",
               duration: 0.25,
               delay: 0.1,
             },
@@ -355,7 +355,7 @@ const Contact = () => {
 
         input:hover,
         textarea:hover {
-          box-shadow: 0 0 0.3rem #7000ff;
+          box-shadow: 0 0 0.3rem #5bc0de;
         }
 
         input:active,

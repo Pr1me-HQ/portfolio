@@ -261,8 +261,8 @@ input[type="checkbox"] {
               90deg,
               #ffffff 0%,
               #ffffff 50%,
-              #8b31ff 51%,
-              #7000ff 100%
+              #5387d5 51%,
+              #5bc0de 100%
             );
             background-size: 200% 100%;
             background-clip: text;
@@ -363,7 +363,7 @@ $bg: #f4faff;
             &:hover {
               &:before {
                 content: "";
-                box-shadow: 0 0 0 5px rgba(#7000ff, 0.5);
+                box-shadow: 0 0 0 5px rgba(#5bc0de, 0.5);
               }
             }
             &:before {
@@ -371,7 +371,7 @@ $bg: #f4faff;
               position: absolute;
               width: 16px;
               height: 16px;
-              outline: 3px solid #7000ff;
+              outline: 3px solid #5bc0de;
               border-radius: 50%;
               left: 0;
               top: 20%;

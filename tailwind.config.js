@@ -17,12 +17,12 @@ module.exports = {
 
       white: "#ffffff",
       black: "#000000",
-      purple: "#8b31ff",
+      purple: "#5387d5",
       red: "#cf0000",
       green: "#00ac56",
       indigo: {
-        light: "#9f55ff",
-        dark: "#7000ff",
+        light: "#0275d8",
+        dark: "#5bc0de",
       },
       gray: {
         light: {
