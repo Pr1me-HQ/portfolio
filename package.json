@@ -7,7 +7,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emailjs/browser": "*",
+    "@emailjs/browser": "3.11.0",
     "bad-words": "^3.0.4",
     "gsap": "^3.8.0",
     "howler": "^2.2.3",
