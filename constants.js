@@ -4,7 +4,7 @@ export const METADATA = {
   description:
     "Azizbek Eshmurodov is a Frontend Developer from Kuwait, interested in crafting beautiful and functional applications.",
   siteUrl: "https://www.azizbek.tech/",
-  twitterHandle: "@shubh731",
+  // twitterHandle: "@",
   keywords: [
     "Azizbek Eshmurodov",
     "Frontend Developer",
@@ -54,56 +54,55 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: @gmail.com",
+    url: "mailto: mr.azizbek.eshumodov@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/aziz-eshmurodov/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/Pr1me-HQ",
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
+    url: "https://vk.com/mr.azizbek",
   },
   {
     name: "twitter",
-    url: "https://twitter.com/shubh731",
+    url: "https://t.me/it_is_worth_it",
   },
 ];
 
 export const SKILLS = {
   languagesAndTools: [
+    "typescript",
+    "javascript",
+    "python",
+    "cpp",
+    "nodejs",
+    "vite",
+    "webpack",
+    "firebase",
     "html",
     "css",
-    "javascript",
-    "typescript",
     "sass",
-    // "cpp",
     // "java",
-    // "python",
-    "nodejs",
-    "webpack",
-    "vite",
-    "firebase",
     // "moralis",
-    // "stripe",
+    "stripe",
     "figma",
-    "tanstack-query",
   ],
   librariesAndFrameworks: [
     "react",
-    "redux",
     "nextjs",
+    "redux",
+    "django",
     "tailwindcss",
-    "styledcomponents",
     "antdesign",
     "chakra-ui",
   ],
-  databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
+  databases: ["mysql", "mongodb", "postgresql"],
+  other: ["git"],
 };
 
 export const PROJECTS = [
