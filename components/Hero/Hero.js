@@ -5,7 +5,6 @@ import { MENULINKS, TYPED_STRINGS } from "../../constants";
 import styles from "./Hero.module.scss";
 import Button from "../Button/Button";
 import Profiles from "../Profiles/Profiles";
-// import lottie from "lottie-web";
 
 const Hero = () => {
   const [lottie, setLottie] = useState();
@@ -37,16 +36,6 @@ const Hero = () => {
 
     return () => typed.destroy();
   }, [typedEl, targetSection]);
-
-  // useEffect(() => {
-  //   lottie.loadAnimation({
-  //     container: lottieRef.current,
-  //     renderer: "svg",
-  //     loop: true,
-  //     autoplay: true,
-  //     animationData: require("../../public/lottie/lottie.json"),
-  //   });
-  // }, []);
 
   useEffect(() => {
     import("lottie-web").then((Lottie) => setLottie(Lottie.default));

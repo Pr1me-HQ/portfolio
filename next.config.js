@@ -12,10 +12,6 @@ const nextConfig = {
 };
 
 module.exports = withPWA({
-  ...nextConfig,
-});
-
-module.exports = {
   webpack: (config) => {
     config.module.rules.push({
       test: /\.(mp3|wav)$/i,
@@ -27,4 +23,4 @@ module.exports = {
     return config;
   },
   ...nextConfig,
-};
+});
