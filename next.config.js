@@ -13,6 +13,7 @@ const nextConfig = {
 
 module.exports = withPWA({
   webpack: (config) => {
+    // Continue with other webpack configurations
     config.module.rules.push({
       test: /\.(mp3|wav)$/i,
       use: {
