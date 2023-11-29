@@ -12,6 +12,7 @@ const nextConfig = {
 };
 
 module.exports = withPWA({
+  ...nextConfig,
   webpack: (config) => {
     // Continue with other webpack configurations
     config.module.rules.push({
@@ -23,5 +24,4 @@ module.exports = withPWA({
 
     return config;
   },
-  ...nextConfig,
 });
