@@ -66,11 +66,11 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "instagram",
-    url: "https://vk.com/mr.azizbek",
+    url: "https://t.me/it_is_worth_it",
   },
   {
     name: "twitter",
-    url: "https://t.me/it_is_worth_it",
+    url: "https://vk.com/mr.azizbek",
   },
 ];
 
@@ -148,21 +148,21 @@ export const PROJECTS = [
 export const WORK = [
   {
     id: 1,
-    company: "Dukaan",
+    company: "Amid food",
     title: "Frontend Developer",
-    location: "Bangalore, Karnataka",
+    location: "Tajikistan, Khujand",
     range: "December - Current",
     responsibilities: [
       "Led creation of a captivating cross-platform e-commerce solution.",
       "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
       "The app boasts a DAU base of 13k and an extensive MAU count of 170k.",
     ],
-    url: "https://mydukaan.io/",
+    url: "https://amidfood.tj/",
     video: "/work/dukaan.mp4",
   },
   {
     id: 2,
-    company: "Aviate",
+    company: " ",
     title: "Frontend Developer Intern",
     location: "Goa",
     range: "May - October 2022",
