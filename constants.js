@@ -48,6 +48,7 @@ export const TYPED_STRINGS = [
   "Hello Marta Cemîrtan",
   "Glad to see you here!",
   "I hope you are doing well",
+  "I love you"
   // "A pragmatic Backend Developer",
   // "I build things for the web",
   // "I create aesthetic and modern apps",
