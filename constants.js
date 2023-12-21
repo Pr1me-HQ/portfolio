@@ -45,14 +45,10 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "Hello Marta Cemîrtan",
-  "Glad to see you here!",
-  "I hope you are doing well",
-  "I love you"
-  // "A pragmatic Backend Developer",
-  // "I build things for the web",
-  // "I create aesthetic and modern apps",
-  // "Please hire me!",
+  "A pragmatic Backend Developer",
+  "I build things for the web",
+  "I create aesthetic and modern apps",
+  "Please hire me!",
 ];
 
 export const SOCIAL_LINKS = [
