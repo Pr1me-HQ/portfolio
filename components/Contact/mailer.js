@@ -8,7 +8,8 @@ const mail = ({ name, email, message }) => {
       "from_name": name, 
       "from_email": email, 
       "message": message, 
-    }
+    },
+    process.env.NEXT_PUBLIC_KEY
   );
 };
 
