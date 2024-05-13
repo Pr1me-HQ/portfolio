@@ -4,8 +4,11 @@ const mail = ({ name, email, message }) => {
   return emailjs.send(
     process.env.NEXT_PUBLIC_SERVICE_ID,
     process.env.NEXT_PUBLIC_TEMPLATE_ID,
-    { name, email, message },
-    process.env.NEXT_PUBLIC_KEY
+    { 
+      "from_name": name, 
+      "from_email": email, 
+      "message": message, 
+    }
   );
 };
 
