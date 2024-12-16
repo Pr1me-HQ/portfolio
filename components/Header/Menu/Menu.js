@@ -13,7 +13,7 @@ const Menu = () => {
   }, []);
 
   return (
-    <div className="menu fixed top-0 left-0 w-full h-full overflow-hidden invisible pointer-events-none flex items-center justify-center">
+    <div className="menu fixed top-0 left-0 w-full h-full overflow-hidden invisible pointer-events-none flex justify-center">
       <div className="flex-none overflow-hidden flex items-center justify-center">
         <div className="text-center opacity-0 overflow-y-auto overflow-x-hidden flex flex-none justify-center items-center max-h-screen">
           <ul className="list-none py-4 px-0 m-0 block max-h-screen">
