@@ -233,8 +233,8 @@ input[type="checkbox"] {
     backface-visibility: hidden;
     outline: 0.0625rem solid transparent;
     > div {
-      width: 240vw;
-      height: 240vw;
+      width: 190vw;
+      height: 190vw;
       transform: scale(0);
       will-change: transform;
       border-radius: 50%;
