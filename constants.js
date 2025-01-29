@@ -62,7 +62,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "github",
-    url: "https://github.com/Pr1me-HQ",
+    url: "https://github.com/aeshmurodov",
   },
   {
     name: "instagram",
